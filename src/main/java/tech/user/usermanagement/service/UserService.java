@@ -38,6 +38,7 @@ public class UserService {
         return userRepo.save(user);
     }
 
+    // go to user repo.java for delete
     public void deleteUser(Long id) {
         userRepo.deleteUserById(id);
     }
